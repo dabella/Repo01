@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MercadoLiebre - Registro</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre">
+            <div class="buscador">
+                <input type="text" name="buscar" placeholder="Buscar productos, marcas y más">
+                <i class="fa fa-search"></i>
+            </div>    
+            <p>Comprá en cuotas y sin tarjeta de crédito</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Tiendas Oficiales</a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
+        </header>
+        <form action="/" method="GET" class="register-form">
+            <h3>Formulario de Registro</h3>
+            <div class="control-form">
+                <h4>Nombre</h4> 
+                <input type="text" id="nombre" ><br>
+            </div>
+            <div class="control-form">
+                <h4>Nombre de usuario</h4>
+                <input type="text" id="usuario" ><br>
+            </div>
+            <div class="control-form">
+                <h4>e-mail</h4>
+                <input type="email" id="email" ><br>
+            </div>
+            <div class="control-form">
+                <h4>Fecha de nacimiento</h4>
+                <input type="date" name="nacimiento">
+            </div>
+            <div class="control-form">
+                <h4>Domicilio</h4>
+                <input type="text" id="domicilio" ><br>
+            </div>
+            <div class="control-form">
+                <h4>Perfil de usuario</h4>
+                <label for="perfilusuario"><input type="radio" name="perfilusuario" value="comprador">Comprador</label>
+                <label for="perfilusuario"><input type="radio" name="perfilusuario" value="vendedor">Vendedor</label>
+            </div>
+            <div class="control-form">
+                <h4>Intereses</h4>
+                <label><input type="checkbox" value="electro">Electro</label><br>
+                <label><input type="checkbox" value="moda">Moda</label><br>
+                <label><input type="checkbox" value="hogar">Hogar</label><br>
+                <label><input type="checkbox" value="jugueteria">Jugueteria</label><br>
+                <label><input type="checkbox" value="vida sana">Vida sana</label><br>
+            </div>
+            <div class="control-form">
+                <h4>Foto de perfil</h4>
+                <input type="file" accept=".jpg , .png"><br>
+            </div>
+            <div class="control-form">
+                <h4>Contraseña</h4>
+                <input type="password" ><br>
+            </div>
+            <div class="control-form">
+                <h4>Repetir contraseña</h4>
+                <input type="password" ><br>
+            </div>
+                <button type="submit" class="boton-registro">ENVIAR</button>
+                <button type="reset" class="boton-registro">CANCELAR</button>
+        </form>
+    </main>
+        <footer>
+            <div class="footer-icons"><i class="far fa-credit-card"></i></div>
+            <h4>Pagá con  tarjeta o en efectivo</h4>
+            <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de pago. ¡Y siempre es seguro!</p>
+            <div class="footer-icons"><i class="fas fa-gift"></i></div>
+            <h4>Envío gratis desde los $ 2.500</h4>
+            <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+            <div class="footer-icons"><i class="fas fa-user-shield"></i></div>
+            <h4>Seguridad de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegid@.</p>
+            <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+        </footer>
+    </body>
+</html>
