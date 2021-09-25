@@ -16,4 +16,4 @@ app.get('/login', (req, res) => {
 }); 
 
 
-app.listen(process.env.PORT || 8080, () => console.log ('servidor en puerto 8080'));
+app.listen(PORT || 8080, () => console.log ('servidor en puerto 8080'));
